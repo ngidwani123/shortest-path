@@ -8,8 +8,6 @@ import java.util.List;
 import graph.Edge;
 import graph.Node;
 
-/** This class contains the solution to A7, shortest-path algorithm, <br>
- * and other methods for an undirected graph. */
 public class Path {
 
 
@@ -28,10 +26,6 @@ public class Path {
         // The mapSF keys are all nodes in the settled set S and frontier set F.
         // The values are each node's Info, which contains information
         // including its distance and its backpointer.
-
-        // Put in a declaration of the HashMap here, with a suitable name
-        // for it and a suitable definition of its meaning --what it contains,
-        // etc. See Section 10 point 4 of the A7 handout for help.
 
         HashMap<Node, Info> SF= new HashMap<>();
 
